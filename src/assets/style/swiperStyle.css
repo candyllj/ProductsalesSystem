@@ -1,0 +1,91 @@
+.swiper_cards {
+  height: 15rem;
+  overflow: auto;
+}
+.swiper_cards > div {
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+.swiper_cards > div img {
+  height: 100%;
+  width: 100%;
+}
+a {
+  display: inline-block;
+}
+.discount_product {
+  margin-top: 10px;
+  background: green;
+}
+.discount_product h3 {
+  height: 3rem;
+  margin: 0;
+  line-height: 3rem;
+}
+.home_title {
+  display: flex;
+  width: calc(100% - 10px);
+  margin: auto;
+  padding: 0 2.5px;
+  background: #fff;
+}
+.home_title .end_time {
+  height: 2rem;
+  line-height: 2.5rem;
+  color: red;
+}
+.home_title a {
+  flex: 1;
+  padding: 5px 2.5px;
+}
+.home_title a .van-card:not(:first-child) {
+  margin-top: 0;
+}
+.home_title a .product_pic {
+  height: 8rem;
+  width: 100%;
+}
+.find_goods {
+  background-color: #fff;
+  padding: 5px 8px;
+  width: calc(100% - 10px);
+  margin: 10px auto;
+}
+.find_goods h3 {
+  height: 3rem;
+  margin: 0;
+  line-height: 3rem;
+}
+.find_goods .find_goods_item {
+  display: flex;
+  overflow: auto;
+}
+.find_goods .find_goods_item .good_wrap {
+  flex: 1;
+  margin: 0 5px;
+  flex-wrap: nowrap;
+}
+.store_push,
+.meat_store {
+  background: #FFE4B5;
+  padding: 8px 0 1px 0;
+}
+.store_push .van-card__content,
+.meat_store .van-card__content {
+  text-align: left;
+}
+.store_push .product_north,
+.meat_store .product_north {
+  width: calc(100% - 10px);
+  margin: 8px auto;
+}
+.store_push img,
+.meat_store img {
+  height: 6rem;
+  width: 6rem;
+}
+.meat_store {
+  background: #98FB98;
+  margin-top: 10px;
+}
